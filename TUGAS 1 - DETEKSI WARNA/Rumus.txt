@@ -1,0 +1,74 @@
+https://www.rapidtables.com/convert/color/rgb-to-hsv.html
+
+Catatan
+
+Normal HSV 
+H 300
+S 100
+V 100
+
+Open CV HSV
+H 180
+S 255
+V 255
+
+Rumus Ubah Normal ke Open CV
+H Open CV = H Normal/2
+S Open CV = S Normal*2.55
+V Open CV = V Normal*2.55
+
+Lower Open CV = H-10, S-20, V-20
+Upper Open CV =  H+10, S+20, V+20
+
+RED
+
+Normal Color Red RGB ( Dari WEB LINK DIATAS )
+R 255
+G 0
+B 0
+
+Normal Color red HSV ( Dari WEB LINK DIATAS )
+H 0
+S 100
+V 100
+
+Open CV Red HSV
+H 0
+S 255
+V 255
+
+Lower Red = 0, 235, 235
+Upper Red = 10, 255, 255
+
+
+PURPLE
+
+Open CV HSV
+150
+255
+128
+
+Lower = 140, 235, 110
+Upper = 160, 255, 150
+
+
+BLACK
+
+Open CV HSV
+0
+0
+0
+
+Lower 0, 0, 0
+Upper 10, 20, 20
+
+
+YELLOW
+
+Open CV HSV
+90
+255
+255
+
+Lower = 80, 235, 235
+Upper = 90, 255, 255
